@@ -1,4 +1,4 @@
-# AIM-BasicPython(@indonesia.ai)
+# AIM - Basic Python(@indonesia.ai)
 
 Repository untuk Mentorship Basic Python B @indonesia.ai
 
