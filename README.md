@@ -1,5 +1,5 @@
-# AIM-BasicPython-indonesia.ai
+# AIM-BasicPython(@indonesia.ai)
 Repository untuk Mentorship Basic Python B @indonesia.ai
-
-
-Test
+Nama : Aqshal Deandra vandaru
+Kelompok : Python B
+Mentor : Hari Purnomo Sidik
