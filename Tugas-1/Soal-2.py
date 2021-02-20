@@ -6,10 +6,10 @@
 pi = 22/7
 
 # Masukkan Input
-r = int(input("Panjang jari-jari: "))
+r = float(input("Panjang jari-jari: "))
 
 # Menghitung Luas
-luas = pi * (r*1.0) * (r*1.0)
+luas = pi * r * r
 
 # output
 print("Luas lingkaran dengan jari-jari {} cm adalah {:.2f} cm\u00b2".format(r, luas))
