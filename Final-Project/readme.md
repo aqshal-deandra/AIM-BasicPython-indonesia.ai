@@ -4,7 +4,7 @@ Kelompok : B
 
 Mentor : Hari Purnomo Sidik
 
-## Final Project AIM Basic Python
+## Final Project AIM Basic Python | Batch 4
 
 **Tujuan** : Membuat sebuah program python yang dapat mengirimkan email kepada beberapa penerima.
 Daftar email penerima disimpan dalam file format .txt
