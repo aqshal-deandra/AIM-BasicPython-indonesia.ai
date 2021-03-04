@@ -10,7 +10,7 @@ Daftar email penerima disimpan dalam file format .txt
 ## Hasil Penugasan
 
 Program menjalankan kode yang dapat dilihat di [final_project](final_project.py) dan akan mengirim 
-email beserta attachment kepada penerima yang telah dimasukan pada [daftar email](attachment)
+email beserta [attachment](attachment) kepada penerima yang telah dimasukan pada [daftar email](daftar_email.txt)
 
 Pertama-tama program akan meminta memasukkan password akun email pengirim seperti gambar dibawah.
 
@@ -19,7 +19,7 @@ Pertama-tama program akan meminta memasukkan password akun email pengirim sepert
 
 Karena telah menggunakan library *getpass* sebelumnya maka ketika kita mengetik password, password tidak akan terlihat.
 
-Selanjutnya, program akan me-looping sebanyak email penerima yang ada pada [daftar_email]
+Selanjutnya, program akan me-looping sebanyak email penerima yang ada pada [daftar_email](daftar_email.txt)
 
 ![proses_pengiriman](https://user-images.githubusercontent.com/78999297/109992193-9c148680-7d3d-11eb-8f39-d8d7f0bc565a.png)
 
@@ -49,10 +49,11 @@ msg['Subject'] = 'Hello, ' + receiver_name + '. This is my AIM Basic Python Fina
 ![body_email](https://user-images.githubusercontent.com/78999297/109995259-b865f280-7d40-11eb-9f54-040526fa233e.png)
 
 
-Itu merupakan tampilan full body email dengan bantuan format html.
+Itu merupakan tampilan [full body email](email.html) dengan bantuan format html.
 
 
 ##Referensi
+
 - Kode python smtplib : https://www.youtube.com/watch?v=m9ojKEBYCvQ&list=PLySH_9QSmELPMujUA-oaGZYUs_igjaNWf&index=4&t=262s
 - Read file : https://www.youtube.com/watch?v=_nCccpFeAN4&t=350s
 - Body Email : https://beefree.io/
