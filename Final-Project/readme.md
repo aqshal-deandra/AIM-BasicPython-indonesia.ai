@@ -10,7 +10,7 @@ Daftar email penerima disimpan dalam file format .txt
 ## Hasil Penugasan
 
 Program menjalankan kode yang dapat dilihat di [final_project](final_project.py) dan akan mengirim 
-email kepada penerima yang telah dimasukan pada [daftar email]
+email beserta attachment kepada penerima yang telah dimasukan pada [daftar email]
 
 Pertama-tama program akan meminta memasukkan password akun email pengirim seperti gambar dibawah.
 
@@ -29,7 +29,7 @@ Setelah program selesai dijalankan maka kita bisa langsung mengecek apakah email
 ![email_terkirim](https://user-images.githubusercontent.com/78999297/109993076-7fc51980-7d3e-11eb-9346-92423a81d294.png)
 
 
-Email telah berhasil terkirim
+Email serta attachment telah berhasil terkirim.
 
 Dari hasil diatas kita juga dapat mengatur nama pengirim yang bisa dilihat dari potongan kode
 
@@ -37,4 +37,18 @@ Dari hasil diatas kita juga dapat mengatur nama pengirim yang bisa dilihat dari 
 sender_email = "wheremybrainp@gmail.com"
 sender_name = "Python-Dean"
 ```
+
+Dan juga agar email lebih fleksibel pada subject email kita bisa menyesuaikan panggilan 
+sapaan yang didapat dari nama sebelum tanda @ pada email penerima
+
+```python
+msg['Subject'] = 'Hello, ' + receiver_name + '. This is my AIM Basic Python Final Project'
+```
+
+![body_email](https://user-images.githubusercontent.com/78999297/109995259-b865f280-7d40-11eb-9f54-040526fa233e.png)
+
+
+Itu merupakan tampilan full body email dengan bantuan format html.
+
+
 
