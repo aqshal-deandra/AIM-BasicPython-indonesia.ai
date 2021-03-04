@@ -21,7 +21,7 @@ Pertama-tama program akan meminta memasukkan password akun email pengirim sepert
 
 Karena telah menggunakan library *getpass* sebelumnya maka ketika kita mengetik password, password tidak akan terlihat.
 
-Selanjutnya, program akan me-looping sebanyak email penerima yang ada pada [daftar_email](daftaremail.txt)
+Selanjutnya, program akan me-looping sebanyak email penerima yang ada pada [daftar email](daftaremail.txt)
 
 ![proses_pengiriman](https://user-images.githubusercontent.com/78999297/109992193-9c148680-7d3d-11eb-8f39-d8d7f0bc565a.png)
 
@@ -31,7 +31,7 @@ Setelah program selesai dijalankan maka kita bisa langsung mengecek apakah email
 ![email_terkirim2](https://user-images.githubusercontent.com/78999297/109996270-a3d62a00-7d41-11eb-899d-b34ed764edc3.png)
 
 
-Email serta attachment telah berhasil terkirim. Penerima ada dua orang sesuai jumlah email yang ada pada [daftar_email](daftaremail.txt)
+Email serta attachment telah berhasil terkirim. Penerima ada dua orang sesuai jumlah email yang ada pada [daftar email](daftaremail.txt)
 
 Dari hasil diatas kita juga dapat mengatur nama pengirim yang bisa dilihat dari potongan kode
 
