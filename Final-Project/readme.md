@@ -33,6 +33,7 @@ Email serta attachment telah berhasil terkirim. Penerima ada dua orang sesuai ju
 
 Dari hasil diatas kita juga dapat mengatur nama pengirim yang bisa dilihat dari potongan kode
 
+
 ```python
 sender_email = "wheremybrainp@gmail.com"
 sender_name = "Python-Dean"
@@ -51,4 +52,9 @@ msg['Subject'] = 'Hello, ' + receiver_name + '. This is my AIM Basic Python Fina
 Itu merupakan tampilan full body email dengan bantuan format html.
 
 
+##Referensi
+- Kode python smtplib : https://www.youtube.com/watch?v=m9ojKEBYCvQ&list=PLySH_9QSmELPMujUA-oaGZYUs_igjaNWf&index=4&t=262s
+- Read file : https://www.youtube.com/watch?v=_nCccpFeAN4&t=350s
+- Body Email : https://beefree.io/
+- Hide Password : https://www.youtube.com/watch?v=OZT7Wxru68Q&t=176s
 
