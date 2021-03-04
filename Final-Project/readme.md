@@ -9,4 +9,4 @@ Daftar email penerima disimpan dalam file format .txt
 
 ## Hasil Penugasan
 
-Program menjalankan kode yang dapat dilihat di [final_project](final_project)
+Program menjalankan kode yang dapat dilihat di [final_project](final_project.py)
