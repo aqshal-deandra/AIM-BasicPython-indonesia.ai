@@ -10,7 +10,7 @@ Daftar email penerima disimpan dalam file format .txt
 ## Hasil Penugasan
 
 Program menjalankan kode yang dapat dilihat di [final_project](final_project.py) dan akan mengirim 
-email beserta attachment kepada penerima yang telah dimasukan pada [daftar email]
+email beserta attachment kepada penerima yang telah dimasukan pada [daftar email](attachment)
 
 Pertama-tama program akan meminta memasukkan password akun email pengirim seperti gambar dibawah.
 
