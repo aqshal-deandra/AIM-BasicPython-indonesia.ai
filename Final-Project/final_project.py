@@ -46,8 +46,7 @@ for receiver_email, receiver_name in zip(receiver_emails, receiver_names):
     msg = MIMEMultipart()
     msg['To'] = formataddr((receiver_name, receiver_email))
     msg['From'] = formataddr((sender_name, sender_email))
-    msg['Subject'] = 'Hello, ' + receiver_name + \
-        '. This is my AIM Basic Python Final Project'
+    msg['Subject'] = 'Hello, ' + receiver_name + '. This is my AIM Basic Python Final Project'
 
     msg.attach(MIMEText(email_body, 'html'))
 
@@ -84,3 +83,4 @@ for receiver_email, receiver_name in zip(receiver_emails, receiver_names):
     finally:
         print('Menutup server...')
         server.quit()
+print("Program Telah Selesai! Terima Kasih")
