@@ -33,8 +33,8 @@ Email telah berhasil terkirim
 
 Dari hasil diatas kita juga dapat mengatur nama pengirim yang bisa dilihat dari potongan kode
 
-```sh
+```python
 sender_email = "wheremybrainp@gmail.com"
 sender_name = "Python-Dean"
-```sh
+```
 
