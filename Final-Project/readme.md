@@ -2,6 +2,8 @@ Nama : Aqshal Deandra Vandaru
 
 Kelompok : B
 
+Mentor : Hari Purnomo Sidik
+
 ## Final Project AIM Basic Python
 
 **Tujuan** : Membuat sebuah program python yang dapat mengirimkan email kepada beberapa penerima.
