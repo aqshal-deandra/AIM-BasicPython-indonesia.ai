@@ -52,7 +52,7 @@ msg['Subject'] = 'Hello, ' + receiver_name + '. This is my AIM Basic Python Fina
 Itu merupakan tampilan [full body email](email.html) dengan bantuan format html.
 
 
-##Referensi
+## Referensi
 
 - Kode python smtplib : https://www.youtube.com/watch?v=m9ojKEBYCvQ&list=PLySH_9QSmELPMujUA-oaGZYUs_igjaNWf&index=4&t=262s
 - Read file : https://www.youtube.com/watch?v=_nCccpFeAN4&t=350s
